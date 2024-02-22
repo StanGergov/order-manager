@@ -1,0 +1,32 @@
+.home-buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+
+    width: 70%;
+    margin: 150px auto;
+
+}
+
+.primary-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    margin: 0;
+
+    border: 2px solid black;
+    border-radius: 15%;
+    background-color: #b4efdd;
+
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}

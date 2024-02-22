@@ -1,0 +1,35 @@
+.client-form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: auto;
+    max-width: 50%;
+
+    font-size: 25px;
+
+}
+
+.client-form label{
+    margin-bottom: 5px;
+}
+
+.client-form input{
+    margin-bottom: 15px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.submit-button{
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15%;
+    background-color: #b4efdd;
+
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}

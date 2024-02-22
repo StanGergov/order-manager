@@ -1,0 +1,56 @@
+.new-client-button-container{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.new-client-button {   
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15%;
+    background-color: #b4efdd;
+
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clients-list th,
+.clients-list td {
+    border: 1px solid black;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.clients-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+tbody {
+    text-align: center;
+}
+
+.new-order-column {
+    width: 50px;
+}
+
+.name-column {
+    width: 150px;
+}
+
+.address-column {
+    width: 300px;
+}
+
+.phone-number-column {
+    width: 150px;
+}
+
+.edit-column {
+    width: 50px;
+}
