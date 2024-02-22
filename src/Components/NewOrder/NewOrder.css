@@ -54,9 +54,29 @@
 
 .products-list{
     margin: 10%;
+    align-items: end;
 }
-.products-list tr{
-    display: grid;
-    width: 100%;
-    grid-template-columns: 4fr 3fr 2fr 2fr 3fr;
+
+.product-column{
+    width: 300px;
 }
+
+.price-column{
+    width: 100px;
+}
+
+.quantity-column{
+    width: 100px;
+}
+
+.total-price-product-column{
+    width: 100px;
+}
+
+.edit-column{
+    width: 100px;
+}
+
+/* tfoot{
+    
+} */
