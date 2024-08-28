@@ -4,6 +4,7 @@ import { ProductsComponent } from './products/products.component';
 import { ClientsComponent } from './clients/clients.component';
 import { OrdersComponent } from './orders/orders.component';
 import { NewOrderComponent } from './new-order/new-order.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -32,5 +33,10 @@ export const routes: Routes = [
         path: 'new-order',
         component: NewOrderComponent,
         title: 'New order page'
+    },
+    {
+        path: 'login',
+        component: LoginComponent,
+        title: 'Login page'
     }
 ];

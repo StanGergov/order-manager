@@ -1,0 +1,31 @@
+<form class="login-form" onsubmit="{console.log('submit')}">
+    <mat-form-field class="input-email">
+      <mat-label>Email</mat-label>
+      <input  type="email" matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher"
+             placeholder="Ex. pat@example.com">
+      <mat-hint>Грешките ще бъдат показани в реално време</mat-hint>
+      @if (emailFormControl.hasError('email') && !emailFormControl.hasError('required')) {
+        <mat-error>Грешен формат</mat-error>
+      }
+      @if (emailFormControl.hasError('required')) {
+        <mat-error>Email e <strong>задължителен</strong></mat-error>
+      }
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Парола</mat-label>
+        <input class="input-password" matInput [type]="hide() ? 'password' : 'text'" required />
+        <button
+          mat-icon-button
+          matSuffix
+          (click)="clickEvent($event)"
+          [attr.aria-label]="'Hide password'"
+          [attr.aria-pressed]="hide()"
+        >
+          <mat-icon>{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+      </mat-form-field>
+
+      <button type="submit" mat-flat-button class="login-button">Влез</button>
+
+  </form>
