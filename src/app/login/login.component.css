@@ -3,7 +3,11 @@
     flex-direction: column;
     max-width: 30%;
     margin: auto;
+<<<<<<< Updated upstream
     margin-top: 40px;
+=======
+    margin-top: 200px;
+>>>>>>> Stashed changes
 }
 
 .login-button{
