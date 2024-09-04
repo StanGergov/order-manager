@@ -7,6 +7,7 @@ import { NewOrderComponent } from './new-order/new-order.component';
 import { LoginComponent } from './login/login.component';
 import { AuthGuard } from './auth-guard.guard';
 
+
 export const routes: Routes = [
     {
         path: '',
