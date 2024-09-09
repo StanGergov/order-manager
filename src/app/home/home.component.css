@@ -1,0 +1,19 @@
+.home-buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    margin: 150px auto;
+}
+
+.home-menu-button {
+    width: 300px;
+    height: 150px;
+}
+
+.link-button {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 40px;
+}
