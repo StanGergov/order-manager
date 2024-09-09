@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+<!-- <<<<<<< Updated upstream
 <form class="login-form" onsubmit="{console.log('submit')}">
     <mat-form-field class="input-email">
       <mat-label>Email</mat-label>
@@ -9,7 +9,7 @@
         <mat-error>Грешен формат</mat-error>
       }
       @if (emailFormControl.hasError('required')) {
-=======
+======= -->
 <form class="login-form" [formGroup]="personForm" (ngSubmit)="onSubmit()">
     <mat-form-field class="input-email">
       <mat-label>Email</mat-label>
@@ -20,13 +20,13 @@
         <mat-error>Грешен формат</mat-error>
       }
       @if (personForm.get('email')?.hasError('required')) {
->>>>>>> Stashed changes
+<!-- >>>>>>> Stashed changes -->
         <mat-error>Email e <strong>задължителен</strong></mat-error>
       }
     </mat-form-field>
 
     <mat-form-field>
-        <mat-label>Парола</mat-label>
+        <!-- <mat-label>Парола</mat-label>
 <<<<<<< Updated upstream
         <input class="input-password" matInput [type]="hide() ? 'password' : 'text'" required />
         <button
@@ -38,9 +38,9 @@
         >
           <mat-icon>{{hide() ? 'visibility_off' : 'visibility'}}</mat-icon>
         </button>
-=======
+======= -->
         <input name="password" formControlName="password" class="input-password" matInput type="password" required />
->>>>>>> Stashed changes
+<!-- >>>>>>> Stashed changes -->
       </mat-form-field>
 
       <button type="submit" mat-flat-button class="login-button">Влез</button>
